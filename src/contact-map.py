@@ -1,4 +1,4 @@
-from utils import parse_pdb, detect_residues_contacts_fast
+from utils import detect_residues_contacts_fast
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
 import numpy as np

@@ -1,8 +1,7 @@
 # Analyzes a single protein and returns information in dictionary and graph format.
-from utils import parse_pdb, analyze_proteins, detect_residues_contacts_fast
+from utils import analyze_proteins, detect_residues_contacts_fast
 import csv
 import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap, BoundaryNorm
 
 protein = "../data/1A6M.pdb"
 
