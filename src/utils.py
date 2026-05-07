@@ -1,6 +1,5 @@
 # Helper functions for the structural analyzer
-import os
-import math
+import os, math, numpy
 from Bio.PDB import PDBParser, NeighborSearch
 
 def parse_pdb(filepath):
